@@ -1,0 +1,9 @@
+[submodule "plothole-dashboard"]
+	path = plothole-dashboard
+	url = https://github.com/teambitflip/plothole-dashboard
+[submodule "plothole-app"]
+	path = plothole-app
+	url = https://github.com/teambitflip/plothole-app
+[submodule "plothole-validator-backend"]
+	path = plothole-validator-backend
+	url = https://github.com/teambitflip/plothole-validator-backend
