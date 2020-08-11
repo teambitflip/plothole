@@ -24,9 +24,10 @@ Our solution consists of an android app that citizens can use to click photos of
 The photo is stored on our servers with the gps coordinates and the submission is added
 to a job queue. The jobs on the queue are sequentially executed by feeding the
 submitted images to a deep learning model which evaluates the validity of the image
-(whether its a pothole or not) and its severity. These results are stored on the database. A
+(whether its a pothole or not) and its severity. These results are stored on the database. 
 
-web admin portal, which is meant for the authorities, is used to display the results, sorted
+
+A web admin portal, which is meant for the authorities, is used to display the results, sorted
 according to severity and validity. We used Firebase for Authentication, Image storage
 and Database. The solution is hosted on a Microsoft Azure VM running Ubuntu 18.04.
 The android app was built using Kotlin. The admin portal uses React in the frontend. The
